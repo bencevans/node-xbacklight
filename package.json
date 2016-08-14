@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "name": "xbacklight",
+  "version": "0.0.0",
+  "description": "control xbacklight",
+  "main": "index.js",
+  "dependencies": {
+    "ava": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-xbacklight/{project}.git"
+  },
+  "keywords": [
+    "xbacklight",
+    "linux",
+    "backlight",
+    "control"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-xbacklight/%7Bproject%7D/issues"
+  },
+  "homepage": "https://github.com/node-xbacklight/%7Bproject%7D#readme"
+}
