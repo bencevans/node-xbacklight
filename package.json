@@ -6,7 +6,7 @@
     "ava": "^0.16.0"
   },
   "name": "xbacklight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "control xbacklight",
   "main": "index.js",
   "dependencies": {
