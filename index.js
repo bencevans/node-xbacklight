@@ -1,4 +1,5 @@
 const exec = require('child_process').exec
+const execSync = require('child_process').execSync
 const Promise = require('pinkie-promise')
 
 function xbacklight (level) {
@@ -44,3 +45,4 @@ function set (level) {
 module.exports = xbacklight
 module.exports.get = get
 module.exports.set = set
+module.exports.isInstalledSync = isInstalledSync
