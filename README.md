@@ -14,6 +14,16 @@ Require module
 const xbacklight = require('xbacklight')
 ```
 
+**Check xbacklight's installed**
+
+```js
+if(xbacklight.isInstalledSync()) {
+  console.log('Woo we\'re ready to rock')
+} else {
+  console.log('Oh no, try `sudo apt-get install xbacklight` if Debian')
+}
+```
+
 **Get the current backlight level**
 
 ```js
